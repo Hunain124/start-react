@@ -1,9 +1,12 @@
-function App() {
-  
+import Chai from './Chai.jsx';  
 
+function App() {
   return (
-  <h1>Learn React</h1>
-  )
+    <>
+    <h1>Learn React From Youtube</h1>
+    <Chai />
+    </>   
+  );
 }
 
-export default App
+export default App;
